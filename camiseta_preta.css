@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'gabriel_weiss_friends'; /* Defina um nome para sua fonte personalizada */
-    src: url('/gabriel_weiss_friends/GABRWFFR.TTF') format('truetype'); /* Especifique o caminho para o arquivo .ttf */
+    src: url('./gabriel_weiss_friends/GABRWFFR.TTF') format('truetype'); /* Especifique o caminho para o arquivo .ttf */
     font-weight: normal;
     font-style: normal;
   }
