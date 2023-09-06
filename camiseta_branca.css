@@ -32,29 +32,39 @@
 h1,h2,h3{
     font-size: 5rem;
 }
+
 h1{
     display: flex;
     padding-top: 1rem;
     font-size: 8rem;
 }
 
+.linha01{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+}
+
 .fa-circle{
     font-size: 1rem;
     align-self: center;
     padding: 10px;
-
 }
 
 .first{
     color: red;
 }
+
 .second{
     color: blue;
 }
+
 .third{
     color: yellow;
     border-radius: 50%;
 }
+
 .forth{  
     color: red;
 }
@@ -70,13 +80,13 @@ a{
     right: 8%;
     text-decoration: none;
     color: yellow;
-
 }
 
 @media (max-width: 780px) {
     h1,h2,h3{
         font-size: 4rem;
     }
+    
     h1{
         display: flex;
         padding-top: 1rem;
@@ -94,6 +104,7 @@ a{
     h1,h2,h3{
         font-size: 2rem;
     }
+    
     h1{
         display: flex;
         padding-top: 1rem;
@@ -104,7 +115,6 @@ a{
         font-size: 1rem;
         align-self: center;
         padding: 8px;
-    
     }
     
 
