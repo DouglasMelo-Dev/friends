@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'gabriel_weiss_friends'; /* Defina um nome para sua fonte personalizada */
+    src: url('/gabriel_weiss_friends/GABRWFFR.TTF') format('truetype'); /* Especifique o caminho para o arquivo .ttf */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Use a fonte personalizada em seu CSS */
+  body {
+    font-family: 'gabriel_weiss_friends', sans-serif; /* Use o nome que você definiu na declaração @font-face */
+    background-color: white;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1,h2,h3{
+    font-size: 5rem;
+}
+h1{
+    display: flex;
+    padding-top: 1rem;
+    font-size: 8rem;
+}
+
+.fa-circle{
+    font-size: 1rem;
+    align-self: center;
+    padding: 10px;
+
+}
+
+.first{
+    color: red;
+}
+.second{
+    color: blue;
+}
+.third{
+    color: yellow;
+    border-radius: 50%;
+}
+.forth{  
+    color: red;
+}
+
+a{
+    background-color: #806eac;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    position: absolute;
+    top: 80%;
+    right: 8%;
+    text-decoration: none;
+    color: yellow;
+
+}
+
+@media (max-width: 780px) {
+    h1,h2,h3{
+        font-size: 4rem;
+    }
+    h1{
+        display: flex;
+        padding-top: 1rem;
+        font-size: 6rem;
+    }
+    
+    .fa-circle{
+        font-size: 1rem;
+        align-self: center;
+        padding: 8px;  
+    }   
+}
+
+@media (max-width: 620px) {
+    h1,h2,h3{
+        font-size: 2rem;
+    }
+    h1{
+        display: flex;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    
+    .fa-circle{
+        font-size: 1rem;
+        align-self: center;
+        padding: 8px;
+    
+    }
+    
+
+    
+}
